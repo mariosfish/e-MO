@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C18FFF88-4E62-4518-BB13-6D6D5898B3E5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web_Misthodosia_Opliton</RootNamespace>
+    <AssemblyName>Web_Misthodosia_Opliton</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>.\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>.\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>.\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="anafora_diagrafis.aspx" />
+    <Content Include="anafora_metabolis.aspx" />
+    <Content Include="anafora_pliromis.aspx" />
+    <Content Include="anafora_prosthikis.aspx" />
+    <Content Include="apodeixi_pliromis.aspx" />
+    <Content Include="css\blog.css" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\navbar-fixed-top.css" />
+    <Content Include="css\signin.css" />
+    <Content Include="diagrafi_opliti.aspx" />
+    <Content Include="img\blurred-background-7.jpg" />
+    <Content Include="img\geetha.png" />
+    <Content Include="img\ges.png" />
+    <Content Include="img\ges_logo.jpg" />
+    <Content Include="img\ypetha.jpg" />
+    <Content Include="img\YPETHA_logo.png" />
+    <Content Include="index.aspx" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\datepicker.js" />
+    <Content Include="js\filterTable.js" />
+    <Content Include="js\html5shiv.min.js" />
+    <Content Include="js\ie10-viewport-bug-workaround.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\npm.js" />
+    <Content Include="js\pdfobject.js" />
+    <Content Include="login.aspx" />
+    <Content Include="metaboli_opliti.aspx" />
+    <Content Include="pliromi_opliti.aspx" />
+    <Content Include="prosthiki_opliti.aspx" />
+    <Content Include="visitor\registration_form.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="sunolikos_pinakas_pliromon.aspx" />
+    <Content Include="about.aspx" />
+    <Content Include="arxeio_opliton.aspx" />
+    <Content Include="anafora_pliromis_by_id.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="anafora_diagrafis.aspx.cs">
+      <DependentUpon>anafora_diagrafis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anafora_diagrafis.aspx.designer.cs">
+      <DependentUpon>anafora_diagrafis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="anafora_metabolis.aspx.cs">
+      <DependentUpon>anafora_metabolis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anafora_metabolis.aspx.designer.cs">
+      <DependentUpon>anafora_metabolis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="anafora_pliromis.aspx.cs">
+      <DependentUpon>anafora_pliromis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anafora_pliromis.aspx.designer.cs">
+      <DependentUpon>anafora_pliromis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="anafora_prosthikis.aspx.cs">
+      <DependentUpon>anafora_prosthikis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anafora_prosthikis.aspx.designer.cs">
+      <DependentUpon>anafora_prosthikis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="apodeixi_pliromis.aspx.cs">
+      <DependentUpon>apodeixi_pliromis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="apodeixi_pliromis.aspx.designer.cs">
+      <DependentUpon>apodeixi_pliromis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BLayer.cs" />
+    <Compile Include="Dal.cs" />
+    <Compile Include="diagrafi_opliti.aspx.cs">
+      <DependentUpon>diagrafi_opliti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="diagrafi_opliti.aspx.designer.cs">
+      <DependentUpon>diagrafi_opliti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="metaboli_opliti.aspx.cs">
+      <DependentUpon>metaboli_opliti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="metaboli_opliti.aspx.designer.cs">
+      <DependentUpon>metaboli_opliti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Misthodosia.Master.cs">
+      <DependentUpon>Misthodosia.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Misthodosia.Master.designer.cs">
+      <DependentUpon>Misthodosia.Master</DependentUpon>
+    </Compile>
+    <Compile Include="pliromi_opliti.aspx.cs">
+      <DependentUpon>pliromi_opliti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pliromi_opliti.aspx.designer.cs">
+      <DependentUpon>pliromi_opliti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="prosthiki_opliti.aspx.cs">
+      <DependentUpon>prosthiki_opliti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="prosthiki_opliti.aspx.designer.cs">
+      <DependentUpon>prosthiki_opliti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="visitor\registration_form.aspx.cs">
+      <DependentUpon>registration_form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="visitor\registration_form.aspx.designer.cs">
+      <DependentUpon>registration_form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sunolikos_pinakas_pliromon.aspx.cs">
+      <DependentUpon>sunolikos_pinakas_pliromon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sunolikos_pinakas_pliromon.aspx.designer.cs">
+      <DependentUpon>sunolikos_pinakas_pliromon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="arxeio_opliton.aspx.cs">
+      <DependentUpon>arxeio_opliton.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="arxeio_opliton.aspx.designer.cs">
+      <DependentUpon>arxeio_opliton.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="anafora_pliromis_by_id.aspx.cs">
+      <DependentUpon>anafora_pliromis_by_id.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anafora_pliromis_by_id.aspx.designer.cs">
+      <DependentUpon>anafora_pliromis_by_id.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Misthodosia.Master" />
+    <Content Include="css\bootstrap-theme.css.map" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="visitor\Web.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\emizfont.ttf" />
+    <Content Include="App_Data\New Doc 4.pdf" />
+    <Content Include="App_Data\New Doc 8.pdf" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>8041</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3303/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+C:\Users\DeusExMachina\Documents\Visual Studio 2013\Projects\Web_Misthodosia_Opliton\Web_Misthodosia_Opliton\bin\Web_Misthodosia_Opliton.dll.config
+C:\Users\DeusExMachina\Documents\Visual Studio 2013\Projects\Web_Misthodosia_Opliton\Web_Misthodosia_Opliton\bin\Web_Misthodosia_Opliton.dll
+C:\Users\DeusExMachina\Documents\Visual Studio 2013\Projects\Web_Misthodosia_Opliton\Web_Misthodosia_Opliton\bin\Web_Misthodosia_Opliton.pdb
+C:\Users\DeusExMachina\Documents\Visual Studio 2013\Projects\Web_Misthodosia_Opliton\Web_Misthodosia_Opliton\obj\Debug\Web_Misthodosia_Opliton.dll
+C:\Users\DeusExMachina\Documents\Visual Studio 2013\Projects\Web_Misthodosia_Opliton\Web_Misthodosia_Opliton\obj\Debug\Web_Misthodosia_Opliton.pdb
+C:\Users\DeusExMachina\Documents\Visual Studio 2013\Projects\Web_Misthodosia_Opliton\Web_Misthodosia_Opliton\obj\Debug\Web_Misthodosia_Opliton.csprojResolveAssemblyReference.cache
+C:\Users\DeusExMachina\Documents\Visual Studio 2013\Projects\Web_Misthodosia_Opliton\Web_Misthodosia_Opliton\bin\itextsharp.dll
+C:\Users\DeusExMachina\Documents\Visual Studio 2013\Projects\Web_Misthodosia_Opliton\Web_Misthodosia_Opliton\bin\itextsharp.pdfa.dll
+C:\Users\DeusExMachina\Documents\Visual Studio 2013\Projects\Web_Misthodosia_Opliton\Web_Misthodosia_Opliton\bin\itextsharp.xtra.dll
+C:\Users\DeusExMachina\Documents\Visual Studio 2013\Projects\Web_Misthodosia_Opliton\Web_Misthodosia_Opliton\bin\itextsharp.xml

@@ -1,0 +1,5 @@
+C:\Users\DeusExMachina\Documents\Visual Studio 2013\Projects\Web_Misthodosia_Opliton\Web_Misthodosia_Opliton\bin\Web_Misthodosia_Opliton.dll.config
+C:\Users\DeusExMachina\Documents\Visual Studio 2013\Projects\Web_Misthodosia_Opliton\Web_Misthodosia_Opliton\bin\Web_Misthodosia_Opliton.dll
+C:\Users\DeusExMachina\Documents\Visual Studio 2013\Projects\Web_Misthodosia_Opliton\Web_Misthodosia_Opliton\bin\Web_Misthodosia_Opliton.pdb
+C:\Users\DeusExMachina\Documents\Visual Studio 2013\Projects\Web_Misthodosia_Opliton\Web_Misthodosia_Opliton\obj\Release\Web_Misthodosia_Opliton.dll
+C:\Users\DeusExMachina\Documents\Visual Studio 2013\Projects\Web_Misthodosia_Opliton\Web_Misthodosia_Opliton\obj\Release\Web_Misthodosia_Opliton.pdb
